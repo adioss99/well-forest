@@ -66,8 +66,8 @@ a {
   text-align: center;
 }
 footer{
-  /* height: 50px; */
-  /* background-color: darkgray; */
+  height: 50px;
+  background-color: darkgray;
 }
 @media only screen and (max-width: 991.99px) {
   #nav-close {
