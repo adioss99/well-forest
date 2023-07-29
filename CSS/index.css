@@ -1,15 +1,15 @@
-body {
+/* body {
   height: 1080px;
-}
+} */
 .banner {
   background-color: aquamarine;
   height: 100vh;
   padding: 0px 140px;
-  background-image: url('/assets/pexels.jpg');
+  /* background-image: url('/assets/pexels.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
 }
 nav {
   display: flex;

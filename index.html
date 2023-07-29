@@ -27,16 +27,16 @@
               </div>
               <ul class="navbar-nav mb-2 justify-content-end">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">PROFIL </a>
+                  <a class="nav-link" href="#profil">PROFIL </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">WISATA</a>
+                  <a class="nav-link" href="#wisata">WISATA</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                   <a class="nav-link" href="#">UMKM</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
-                  <a class="nav-link" href="#">LAYANAN </a>
+                  <a class="nav-link" href="#lokasi">LOKASI </a>
                 </li>
               </ul>
             </div>
@@ -44,7 +44,49 @@
         </nav>
       </section>
     </header>
-    <section style="height: 1500px"></section>
+    <section class="profil mt-5" id="profil">
+      <h2 class="text-center mb-5">Profil</h2>
+    </section>
+    <section class="wisata mt-5" id="wisata">
+      <h2 class="text-center mb-5">Wisata</h2>
+    </section>
+    <section class="map mt-5" id="lokasi">
+      <h2 class="text-center mb-5">Lokasi</h2>
+      <div class="mapouter text-center ">
+        <div class="gmap_canvas">
+          <iframe
+            class="gmap_iframe rounded-3"
+            frameborder="0"
+            width="60%"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+            src="https://maps.google.com/maps?width=500&amp;height=50&amp;hl=en&amp;q=alassumur&amp;t=k&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          ></iframe
+          >
+        </div>
+        <style>
+          .mapouter {
+            position: relative;
+            text-align: right;
+            width: 100%;
+            /* height: 350px; */
+          }
+          .gmap_canvas {
+            overflow: hidden;
+            background: none !important;
+            width: 100%;
+            /* height: 350px; */
+          }
+          .gmap_iframe {
+            height: 350px !important;
+          }
+        </style>
+      </div>
+    </section>
+    <footer style="height: 200px;">
+
+    </footer>
     <script src="./bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
